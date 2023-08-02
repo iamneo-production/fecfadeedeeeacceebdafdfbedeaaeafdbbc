@@ -34,7 +34,7 @@ function App() {
     <div className="flex justify-center mt-4">
       <div>
         <div className="flex items-center justify-center space-x-4 mb-12">
-          <h1 className="text-3x1">quizz App</h1>
+          <h1 className="text-3x1">Quizz App</h1>
           <i className=''>learn react</i>
         </div>
             { start && <Button onClick={handleStart} style={"bg-orange-300 px-10 py-2 rounded hover:bg-orange-400"}> startquiz</Button>}
