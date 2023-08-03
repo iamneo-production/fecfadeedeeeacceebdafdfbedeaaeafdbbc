@@ -8,6 +8,7 @@
     "enzyme-adapter-react-16": "^1.15.7",
     "react": "^15.7.0",
     "react-dom": "^15.7.0",
+    "react-script": "^2.0.5",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
