@@ -52,7 +52,7 @@ const Card = ({
       <h4 className="pt-3 pb-1">{question}</h4>
       <div className="flex space-x-2">
         {optionArray.map((option, index) => (
-          console.log(index,option,marked,qsnAttempt),
+          console.log(index,option,marked,qsnAttempt,optionArray),
           <Button
             key={index}
             marked={marked}
@@ -65,7 +65,7 @@ const Card = ({
         ))}
         
       </div>
-      <button>Show result</button>
+      <Button>Show Results</Button>
     </div>
   );
 };

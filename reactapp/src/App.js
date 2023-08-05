@@ -26,7 +26,7 @@ function App() {
   const handleResult=()=>{
     setStart(true)
     setBanner(true)
-    setCard(true)
+    setCard(false)
     setResult(true)
   }
 
