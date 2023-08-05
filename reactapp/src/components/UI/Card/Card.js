@@ -22,6 +22,7 @@ const Card = ({
   const click = (clicked) => {
     setQsns(qsn + 1);
     setMarked(true);
+    console.log("hello")
     if (qsnAttempt === 4) {
       setCard(true);
     }
