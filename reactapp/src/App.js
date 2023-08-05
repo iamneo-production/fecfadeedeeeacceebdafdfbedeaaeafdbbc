@@ -17,7 +17,7 @@ function App() {
     setCard(true)
     correctAnswerMarkUpdate(0)
     setQsnsAttempt(0)
-    setBanner(true)
+    setBanner(false)
   }
   const opt={
     option1:"Blue",option2: "Red",option3:"Yellow",option4:"Green"
@@ -27,7 +27,7 @@ function App() {
     setStart(true)
     setBanner(true)
     setCard(true)
-    setResult(false)
+    setResult(true)
   }
 
   return(
