@@ -19,11 +19,11 @@ const Card = ({
     options.option4,
   ];
   const [marked, setMarked] = useState(false);
-  const click = (clicked,qsnAttempt) => {
+  const click = (props,clicked) => {
     setQsns(qsn + 1);
     setMarked(true);
     console.log("hello")
-    if (qsnAttempt === 4) {
+    if (props.qsnAttempt === 4) {
       setCard(true);
     }
     if (clicked === answer) correctAnswerMarkUpdate(attempt + 1);
@@ -61,8 +61,11 @@ const Card = ({
           >
             {option}
           </Button>
+          
         ))}
+        
       </div>
+      <button>Show result</button>
     </div>
   );
 };
