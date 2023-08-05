@@ -19,7 +19,7 @@ const Card = ({
     options.option4,
   ];
   const [marked, setMarked] = useState(false);
-  const click = (clicked) => {
+  const click = (clicked,qsnAttempt) => {
     setQsns(qsn + 1);
     setMarked(true);
     console.log("hello")
@@ -52,6 +52,7 @@ const Card = ({
       <h4 className="pt-3 pb-1">{question}</h4>
       <div className="flex space-x-2">
         {optionArray.map((option, index) => (
+          console.log(index,option,marked,qsnAttempt),
           <Button
             key={index}
             marked={marked}
